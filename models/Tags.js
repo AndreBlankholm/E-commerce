@@ -11,7 +11,7 @@ Tag.init(                  //Tag/ id and tage_name
         type: DataTypes.INTEGER,
         allowNull: false,
         primaryKey: true,
-        autoIncrement: true,
+        autoIncrement: true
     },
     tag_name: {
         type: DataTypes.STRING,        
